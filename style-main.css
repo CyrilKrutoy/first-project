@@ -76,7 +76,7 @@
       justify-content: center;
       Width:372px;
       Height:63px;
-      background: #373737af;
+      background: #37373760;
       color: #ffffff;
       font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular;
       font-size: 16px; 
@@ -390,11 +390,6 @@ margin-bottom: 7px;
 .social1 img{
   padding-right: 5px;
 }
-/* .star4{
-  display: inline-block;
-  width: 63px;
-  height: 15px;
-} */
 /*  */
 .inform3 {
   display: flex;
