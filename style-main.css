@@ -344,22 +344,44 @@ margin-bottom: 7px;
   margin-top: 15px;
   margin-left: 36px;
 }
-.inform1:hover, .inform2:hover,
-.inform3:hover, .inform4:hover,
-.inform5:hover, .inform6:hover,
-.inform7:hover{
+.movie1, .movie2{
+  position: relative;
+  top: -42px;
+  right: 80px;
+}
+.movie3{
+  position: relative;
+  top: -33px;
+  right: 374px;
+}
+.movie4, .movie5,
+.movie6, .movie7{
+  position: relative;
+  top: -36px;
+  right: 374px;
+}
+.mov{
+  display: none;
+}
+
+.infomovie:hover > .mov{
+  display: block
+}
+
+.infomovie:hover {
   background: #f26c4f;
   color: #ffffff;
+
 }
 .headh2{
   margin-top: 10px;
   margin-left: 35px;
 }
 .socials1 {
-  height: 15px;
+  height: 20px;
     width: 580px;
     margin-left: 38px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .socials1 a {
@@ -383,12 +405,29 @@ margin-bottom: 7px;
   border-right: 1px solid #767676;
   padding-right: 20px;
 }
+#headstars {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 19px;
+}
 
 .socials1 li:last-child {
   border: none;
 }
 .social1 img{
   padding-right: 5px;
+}
+/* .headstars{
+width: 140px;
+height: 20px;} */
+
+.stars{
+  display: flex;
+  height: 15px;
+  width: 72px;
+  overflow: hidden;
+  margin-right: 10px;
 }
 /*  */
 .inform3 {
